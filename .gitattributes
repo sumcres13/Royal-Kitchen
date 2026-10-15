@@ -1,0 +1,2 @@
+# Preserve every source and image file byte-for-byte on all platforms.
+* -text

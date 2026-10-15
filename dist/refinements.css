@@ -1,0 +1,104 @@
+/* Royal Kitchen: saffron, warm copper, beige and original culinary illustrations. */
+.company-brand .company-title,.footer-brand>a:first-child .company-title{
+ font:600 25px/1.25 "Noto Sans JP",sans-serif;letter-spacing:.01em;font-style:normal;white-space:nowrap
+}
+.company-brand .company-wordmark,.footer-brand>a:first-child .company-wordmark{display:block}
+.company-name-text{font-family:"Noto Sans JP",sans-serif;font-style:normal;font-weight:400}
+.company-brand .company-name-suffix,.footer-brand .company-name-suffix{display:none}
+.language-switch{min-width:112px;height:40px;padding:8px 12px;gap:8px;border:0;border-bottom:1px solid #d3bd99;border-radius:0;background:transparent;color:inherit;box-shadow:none}
+.language-switch:hover{background:#fbf0dd;border-color:#a45b29;box-shadow:none;color:#a45b29}
+.language-switch .language-globe{display:block;width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.5}
+.language-switch .language-target{font:500 12px/1.2 var(--sans);margin:0;letter-spacing:.02em}
+.language-switch .language-chevron{margin:0;transition:transform .2s;font-size:13px}
+.language-switch:hover .language-chevron{transform:translate(2px,-2px)}
+.hero-scrim{background:linear-gradient(180deg,rgba(0,0,0,.441),rgba(0,0,0,.371) 42%,rgba(0,0,0,.455))}
+.reservation-background{background-image:linear-gradient(180deg,rgba(0,0,0,.354),rgba(0,0,0,.42)),url("assets/royal-kitchen-hero.png")}
+.booking-intro,.delivery-intro,.reservation-background .section-title{text-shadow:0 2px 10px #000b}
+.about-visual,#about .about-visual{padding:0;margin:0 18px 0 12px;border:0;border-radius:0;background:none;box-shadow:none;isolation:isolate}
+.about-visual>img{border-radius:0;clip-path:polygon(0 0,calc(100% - 28px) 0,100% 28px,100% 100%,28px 100%,0 calc(100% - 28px));object-position:center}
+.about-visual::before{content:"";position:absolute;inset:22px auto 22px -13px;width:6px;background:repeating-linear-gradient(45deg,#a45b29 0 8px,#c89959 8px 11px,#f7f4ec 11px 17px);border:0;z-index:2}
+.about-visual::after{content:"";position:absolute;left:28px;right:-10px;top:15px;bottom:-12px;border:1px solid #b47b43;z-index:-1;pointer-events:none}
+.about-photo-signature{right:18px;bottom:18px;width:88px;height:88px;padding:0;background:none;border:0;border-radius:0;box-shadow:none;backdrop-filter:none}
+.about-photo-signature img{background:none;border:0;border-radius:0;padding:0;filter:none;mix-blend-mode:normal;object-fit:contain}
+.home-store{background:#f7f4ec url("assets/saffron-feast.svg") center/cover no-repeat}
+.values-section{background:#fbf1df url("assets/spice-garland.svg") center/cover no-repeat;border:0}
+.values-section .section-title{background:none}
+.stores-gallery{background:#fbf1df url("assets/copper-spice-gallery.svg") center/cover no-repeat;padding-block:46px}
+.home-store-card{border:1px solid #b47b4340;box-shadow:0 16px 36px #87461c0c}
+.values-section .value-card{background:#fff;border-color:#e6d4b7;box-shadow:0 12px 30px #8b502909}
+.value-card svg{stroke:#b47b43}
+.representative-note{background:linear-gradient(145deg,#fbfaf5,#fcf3e4);border:1px solid #e9d9bc;border-left:3px solid #c8934f;border-top:1px solid #e9d9bc;border-radius:0;box-shadow:0 12px 35px #87461c09}
+.representative-note::before{content:none}
+.representative-note .ceo-message-label{color:#a07849;gap:0}
+.representative-note .ceo-message-label::before{display:none;content:none}
+.representative-note .ceo-catch{color:#8b5029}
+.representative-note .ceo-message{color:#654d3d;border-top-color:#e2cba9}
+.booking-grid{grid-template-columns:repeat(3,minmax(0,1fr));max-width:1000px;margin-inline:auto}
+.booking-card{--action-accent:#b47b43;position:relative;transition:transform .25s cubic-bezier(.2,.8,.2,1),box-shadow .25s,filter .25s}
+.booking-card.tabelog{--action-accent:#d58a12}.booking-card.gurunavi{--action-accent:#bd1515}.booking-card.telephone{--action-accent:#b47b43}
+.booking-card:hover,.booking-card:focus-visible{transform:translateY(-8px) scale(1.018);box-shadow:0 20px 34px #00000052;filter:saturate(1.12)}
+.booking-action{transition:background .2s ease,box-shadow .2s ease;gap:8px}
+.booking-action>span:last-child,.delivery-action>span:last-child{display:inline-block;transition:transform .2s ease}
+.booking-card:hover .booking-action>span:last-child,.booking-card:focus-visible .booking-action>span:last-child,.delivery-card:hover .delivery-action>span:last-child,.delivery-card:focus-visible .delivery-action>span:last-child{transform:translate(3px,-3px)}
+.delivery-card{transition:transform .25s cubic-bezier(.2,.8,.2,1),box-shadow .25s,filter .25s}
+
+.delivery-card:hover,.delivery-card:focus-visible{transform:translateY(-8px) scale(1.018);box-shadow:0 20px 34px #00000052;filter:saturate(1.12)}
+.booking-card:active,.delivery-card:active{transform:translateY(-1px) scale(.985)}
+.button[href*="reservation"]{transition:transform .2s ease,background .2s ease,box-shadow .2s ease}
+.button[href*="reservation"]:hover,.button[href*="reservation"]:focus-visible{transform:translateY(-4px);box-shadow:0 8px 20px #0002}
+.button[href*="reservation"]:active{transform:translateY(-1px) scale(.985)}
+.booking-grid.reveal,.delivery-grid.reveal{transition:opacity .58s cubic-bezier(.22,.72,.24,1),transform .58s cubic-bezier(.22,.72,.24,1)}
+.gallery-autoplay{position:absolute;z-index:5;right:18px;bottom:14px;padding:7px 10px;border:1px solid #ffffff80;background:#81512ccf;color:white;border-radius:3px;font:500 11px/1.4 var(--sans);cursor:pointer;min-height:34px}
+.gallery-autoplay:hover{background:#a45b29}.gallery-slide{transition:opacity .65s ease}
+.gallery-arrow{background:#81512caa}
+.gallery-slide::after{background:linear-gradient(transparent,#3e2113b8)}
+.location-section.section-pad{padding-block:42px 48px}
+.location-intro p{margin-bottom:20px}
+.map-card{width:min(100%,1160px);padding:10px;border-radius:15px}
+.map-card .map-frame{height:clamp(350px,34vw,480px);border-radius:8px}
+@media(max-width:760px){
+ .company-brand .company-title,.footer-brand>a:first-child .company-title{font-size:21px}
+ .language-switch{min-width:103px;height:38px;padding:7px 8px;gap:7px}
+ #about .about-visual{width:calc(100% - 26px);margin:0 auto 35px}
+ .about-photo-signature{right:12px;bottom:12px;width:75px;height:75px}
+ .home-store{background-size:auto 100%;background-position:center}
+ .values-section{background-size:auto 100%}.stores-gallery{background-size:auto 100%;padding-block:38px}
+ .booking-grid{grid-template-columns:1fr;max-width:420px;gap:14px}
+ .booking-grid .booking-card{width:100%;min-height:220px;grid-column:auto}
+ .booking-grid.reveal,.delivery-grid.reveal{transform:translateY(12px);transition-duration:.46s}
+ .booking-grid.reveal.is-visible,.delivery-grid.reveal.is-visible{transform:none}
+ .gallery-autoplay{bottom:9px;right:10px;font-size:10px;padding:5px 7px}
+ .stores-gallery .gallery-stage{aspect-ratio:4/3}
+ .stores-gallery .gallery-slide img{object-fit:contain;object-position:center}
+ .stores-gallery .gallery-slide>span{left:12px;right:auto;bottom:12px;transform:none;width:auto;max-width:calc(100% - 112px);margin:0;text-align:left;font-size:clamp(11px,3vw,13px);line-height:1.65;letter-spacing:.025em;color:#fff;text-shadow:0 1px 3px #000d,0 2px 8px #0009}
+ .stores-gallery .gallery-dots{left:auto;right:12px;bottom:52px;transform:none}
+ .location-section.section-pad{padding-block:30px 38px}
+ .map-card{padding:7px}.map-card .map-frame{height:340px}
+}
+@media(prefers-reduced-motion:reduce){
+ .booking-card,.delivery-card,.booking-action,.booking-action>span,.delivery-action>span,.gallery-slide,.button[href*="reservation"],.language-chevron,.booking-grid.reveal,.delivery-grid.reveal{transition:none;animation:none}
+ .booking-card:hover,.delivery-card:hover,.button[href*="reservation"]:hover{transform:none}
+}
+@media(max-width:360px){
+ .company-brand .company-title{font-size:18px}.header-inner{gap:8px}.header-actions{gap:4px}
+ .language-switch{min-width:88px;padding-inline:5px;gap:5px}.language-switch .language-target{font-size:11px}
+ .menu-toggle{width:36px;padding-inline:7px}
+}
+
+/* Diagonal white sheen, following the reference card animation. No hover color fill. */
+.booking-card,.delivery-card,.button[href*="reservation"]{position:relative;overflow:hidden;isolation:isolate}
+.booking-card::before,.delivery-card::before,.button[href*="reservation"]::before{position:absolute;z-index:5;top:0;left:-120%;width:70%;height:100%;content:"";pointer-events:none;background:linear-gradient(110deg,transparent,rgba(255,255,255,.5),transparent);transform:skew(-22deg);transition:left .55s ease}
+.booking-card:is(:hover,:focus-visible)::before,.delivery-card:is(:hover,:focus-visible)::before,.button[href*="reservation"]:is(:hover,:focus-visible)::before{left:150%}
+.booking-card:hover .booking-action,.delivery-card:hover .delivery-action{letter-spacing:.02em}
+.button.button-primary[href*="reservation"]:hover{background:var(--orange)}
+#location-title{font-size:clamp(1.6rem,3vw,2.7rem)}
+@media(max-width:760px){
+ .home-store{background-image:url("assets/saffron-feast-mobile.svg");background-size:100% 100%}
+ .values-section{background-image:url("assets/spice-garland-mobile.svg");background-size:100% 100%}
+ .stores-gallery{background-size:auto 100%}
+ #location-title{font-size:clamp(1.45rem,6vw,2rem)}
+}
+@media(prefers-reduced-motion:reduce){
+ .booking-card::before,.delivery-card::before,.button[href*="reservation"]::before{display:none;transition:none}
+ .booking-card:is(:hover,:focus-visible),.delivery-card:is(:hover,:focus-visible),.button[href*="reservation"]:is(:hover,:focus-visible){transform:none;filter:none}
+}
